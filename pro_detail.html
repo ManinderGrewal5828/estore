@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Estore - Product Details</title>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" role="contentinfo"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+    <body>
+      <header>   
+            <img role="img" src="img/logo.png" alt="Estore">
+            <nav role="navigation">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="brands.html">Brands</a></li>
+                    <li><a href="pro_list.html">Product List</a></li>
+                    <li><a href="pro_detail.html" class="active">Product Details</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav> 
+      </header> 
+        <main role="main">
+            <div class="brand-title">
+                 <div class="brand-text">
+                        <span>60% Discount!</span>
+                        <h1>Know about our<br>Products!<br></h1>
+                        <p>Best Cloth Collection By 2020!</p>
+                </div>
+            </div> 
+            
+            <div class="slides" role="banner">
+              <img class="mySlides" src="img/slide/category_1.jpg" >
+              <img class="mySlides" src="img/slide/category_2.jpg" >
+              <img class="mySlides" src="img/slide/category_3.jpg" >
+              <img class="mySlides" src="img/slide/category_4.jpg" >
+              <img class="mySlides" src="img/slide/category_5.jpg" >
+              <img class="mySlides" src="img/slide/category_6.jpg" >
+              <img class="mySlides" src="img/slide/category_7.png" >
+              <img class="mySlides" src="img/slide/category_8.jpg" >    
+            </div>
+            <div class="desc">
+                <h1>World Best Brands!</h1>
+                <h2>
+                Nike has acquired and sold several apparel and footwear companies over the course of its history.<br>
+                Adidas sells a range of clothing items, varying from men's and women's t-shirts, jackets, hoodies, pants and leggings.<br>
+                Aéropostale maintains control over its proprietary brands by designing, sourcing, marketing and selling all of its own merchandise.<br>
+                Puma offers products for Basketball, Football, Running, Training and Fitness, Golf, Motorsports and Sportstyle.<br>
+                Louis Vuitton is one of the world's leading international fashion houses. Louis Vuitton was named the world's most valuable luxury brand.<br>
+                Lacoste operates a large number of Lacoste boutiques worldwide located as concessions in leading department stores and also as independent venue stores.<br>
+                Tommy Hilfiger is licensed for a range of products such as fragrances, eyewear, watches, and home furnishings.<br>
+                Hollister Co. is a global teen and young adult retail brand.</h2>
+            </div>    
+            <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); 
+            }
+            </script>
+
+        </main>
+        <footer>
+            <span role="contentinfo">Copyright &copy;2020 All rights reserved</span> 
+            <img src="img/logo.png" alt="Estore">
+        </footer>    
+    </body>
+</html>

@@ -1,0 +1,998 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/*Header*/
+
+header{
+    padding: 2em 0em 2em 0em;
+    background-color:white;
+    height: 2em;
+    width: 100%;
+}
+header img{
+    padding: 0.3em 2em 2em 8em;
+    float: left;
+}
+nav{
+    float: right;
+    padding-right: 2em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+}
+nav ul li {
+    display: inline-block;
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+nav ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 0.5em 3em 2em 3em;
+    border: 2px solid transparent;
+}
+nav ul li a:hover {
+    color: red;
+}
+.active{
+    color: red;
+}
+/*Header Closed*/
+
+/*Home Page*/
+
+.banner{
+    width: 100%;
+    height: 35em;
+    background-color:  #c7ecff;
+    display: flex;
+}
+.banner img{
+    padding: 0 3em 0 9em;
+    height: 35em;
+}
+.banner-text{
+    padding: 10em 12em 12em 8em;
+}
+.banner-text span{
+    font-size: 2.3em;
+    font-family: cursive;
+    font-style: italic;
+    color: #2577fd;
+}
+.banner-text h1{
+    margin: 0;
+    padding: 0;
+    font-size: 3.5em;
+}
+.banner-text p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    font-family: cursive;
+    font-style: italic;    
+    color: #58656d;
+}
+.banner2{
+    width: 100%;
+    height: 35em;
+    margin: 0;
+}
+.banner2 h1{
+    margin: 0;
+    padding-top : 2em;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: none;
+    font-weight: 900;
+}
+.banner-img{
+    padding-top: 2.5em;
+    display: flex;
+}
+.banner-img img{
+    padding: 1.5em;
+}
+.banner3{
+    width: 95%;
+    height: 35em;
+    margin: 8em 2em 0 2em;
+    background-color: #fff7d8;
+}
+.man{
+    width: 100%;
+    height: 0;
+}
+.man img{
+    margin: 0;
+    height: 43em;
+    padding-left: 15em;
+}
+.banner3-text{
+    float: right;
+    padding: 13em 14em 13em 0; 
+}
+.banner3-text h1{
+    margin: 0;
+    font-size: 2.5em;
+    font-family: none;
+    font-weight: 900;
+}
+.banner3-text p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    font-family: cursive;
+    font-style: italic;    
+    color: #58656d;
+}
+.banner3-text span{
+    font-size: 2.3em;
+    font-family: cursive;
+    font-style: italic;
+    color: #2577fd;
+}
+
+/*Home page closed*/
+
+/*Brand Page*/
+
+.brand-title{
+    width: 100%;
+    height: 35em;
+    background-image:  url('../img/banner_img.png');
+    background-size: cover;
+}
+.brand-text{
+    padding: 10em 0 9em 14em;
+}
+.brand-text span{
+    font-size: 2.3em;
+    font-family: cursive;
+    font-style: italic;
+    color: #2577fd;
+}
+.brand-text h1{
+    margin: 0;
+    padding: 0;
+    font-size: 3.5em;
+}
+.brand-text p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    font-family: cursive;
+    font-style: italic;    
+    color: #58656d;
+}
+
+table {
+  margin: 2em;
+  width: 96%;
+  border: 7px solid #dce4e7;
+  padding: 1em;
+}
+.brands h1 {
+    margin: 0;
+    padding-top : 2em;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: none;
+    font-weight: 900;
+}
+thead {
+  text-align: justify;
+}
+thead tr th {
+  font-size: 18px;    
+  padding-bottom: 1em;
+  font-family: sans-serif;
+}
+tbody tr td {
+  text-align: left;    
+  font-size: 14px;
+  padding: 0.5em;
+  color: black;
+  font-family: sans-serif;
+}
+tbody tr td img{
+  width: 6em;
+  height: 3.5em;    
+}
+
+/*Brand page closed*/
+
+/*Product-List Page*/
+
+.products-line1{
+    margin-top: 4em;
+    width: 60%;
+    height: 35em;
+    display: flex;
+    padding: 0 12em 0 12em;
+}
+.products-line1 img{
+    padding: 2em 4em 0 4em;
+}
+.products-line2{
+    margin-bottom: 4em;
+    width: 60%;
+    height: 35em;
+    display: flex;
+    padding: 0 12em 0 12em;
+}
+.products-line2 img{
+    padding: 2em 4em 0 4em;
+}
+.pro1, 
+.pro2,
+.pro3,
+.pro4{
+    display: grid;
+}
+h3{
+    text-align: left;
+    font-family: monospace;
+    font-size: 2em;
+    margin: 0;
+    padding-left: 2.2em;
+    color: #191d34;
+}
+.products-line1 p{
+    color: #506172;
+    font-family: monospace;
+    padding-left: 2.2em;
+    font-size: 2em;
+    margin: 0;
+}
+.products-line2 p{
+    color: #506172;
+    font-family: monospace;
+    padding-left: 2.2em;
+    font-size: 2em;
+    margin: 0;
+}
+/*Product-List Page closed*/
+
+/*Product-Details*/
+
+.mySlides {
+    display: none;
+}
+.slides{
+    padding: 4em 0 6em 7em;
+    margin: 0;
+    width: 70%;
+}
+.slides img{
+    width: 60em;
+    max-height: 60em;
+}
+.desc{
+    width: 100%;
+    height: 25em;
+}
+
+.desc h1{
+    margin: 0;
+    padding-left: 7em;
+    padding-bottom: 0.5em;
+    font-size: 3.5em;
+}
+.desc h2{
+    width: 70%;
+    margin: 0;
+    padding: 1em 1em 2em 7em;
+    text-align: left;
+    font-size: 1.2em;
+    font-family: monospace;  
+    color: #58656d;
+}
+
+
+/*Product-Details closed*/
+
+/*Blog*/
+
+.blog{
+    width: 100%;
+    height: 100em;
+}
+.blog img{
+    padding-left: 5em;
+    padding-top: 5em;
+}
+
+.blog h1{
+    margin: 0;
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+}
+.blog p{
+    margin: 0;
+    padding-left: 5em;
+    padding-bottom: 1.5em;
+    font-size: 1.3em;
+    font-family: monospace;    
+    color: #58656d;
+}
+.blog span{
+    margin: 0;
+    padding-left: 5em;
+    font-size: 1em;
+    font-family: cursive;
+    font-style: italic;
+    color: #2577fd;
+}
+/*Blog closed*/
+
+/*Contact us*/
+
+.contact{
+    width: 100%;
+    height: 35em;
+    display: flex;
+}
+
+#map{
+    margin: 3em;
+    width: 45%;
+    height: 25em;
+}
+
+.get{
+    padding: 2em;
+    width: 45%;
+}
+
+.field{
+    padding: 0.5em 1em;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    font-family: monospace;
+}
+.btn{
+    padding: 0.5em 1em;
+    width: 30%;
+    outline: none;
+    border: 2px solid #ddd;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    font-family: monospace;    
+}
+.btn:hover{
+    border: 3px solid #ddd;
+}
+.area{
+    border: 1px solid #ddd;
+    margin-bottom: 1em;    
+    min-height: 4em;
+    font-size: 1.3em;
+    font-family: monospace;
+}
+
+
+/*Contact us closed*/
+
+/*Footer*/
+
+footer{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 3em;
+    display: flow-root;
+}
+footer span{
+    float: left;
+    padding-left: 3em;
+    color: #888888;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 2;
+}
+footer img{
+    float: right;
+    padding-right: 3em;
+}
+
+/*Footer Closed*/
+
+
+
+@-ms-viewport{
+  width: device-width;
+}
+
+
+
+/*Responsive*/
+
+/*Small Laptop Mode (1024px)*/
+
+
+@media (max-width: 1024px) {
+    
+/*    Header*/
+    
+    header{
+        width: 93%;
+        padding: 2em;
+        height: 2em;
+    }
+    header img{
+        padding: 0.3em 0.5em 0.5em 2em;
+        float: left;
+    }
+    nav{
+        float: right;
+        padding-right: 3em;
+    }
+    nav ul li a {
+        padding: 0.5em 1em 0.5em 1em;
+    }
+    
+/*    Header closed*/
+    
+/*Home Page*/
+
+    .banner{
+        height: 25em;
+    }
+    .banner img{
+        padding: 0 3em 0 9em;
+        height: 25em;
+    }
+    .banner-text{
+        padding: 5em 6em 6em 4em;
+    }
+    .banner-text span{
+        font-size: 2em;
+    }
+    .banner-text h1{
+        font-size: 3.2em;
+    }
+    .banner-text p{
+        font-size: 1.2em;
+    }
+    .banner2{
+        width: 100%;
+        height: 25em;
+    }
+    .banner2 h1{
+        padding-top : 2em;
+        font-size: 2.2em;
+    }
+    .banner-img{
+        padding-top: 1.2em;
+    }
+    .banner-img img{
+        padding: 1.5em;
+        width: 20em;
+        height: 10em;
+    }
+    .banner3{
+        height: 25em;
+        margin: 8em 2em 2em 2em;
+    }
+    .man img{
+        height: 33em;
+        padding-left: 7em;
+    }
+    .banner3-text{
+        padding: 6em 7em 6em 0; 
+    }
+    .banner3-text h1{
+        font-size: 2.2em;
+    }
+    .banner3-text p{
+        font-size: 0.9em;
+    }
+    .banner3-text span{
+        font-size: 2em;
+    }
+
+/*Home page closed*/
+
+/*Brand Page*/
+
+    .brand-title{
+        height: 25em;
+    }
+    .brand-text{
+        padding: 5em 0 4em 7em;
+    }
+    .brand-text span{
+        font-size: 1.5em;
+    }
+    .brand-text h1{
+        font-size: 2.8em;
+    }
+    .brand-text p{
+        font-size: 1em;
+    }
+    table {
+      margin: 1em;
+      width: 97%;
+      border: 5px solid #dce4e7;
+      padding: 1em;
+    }
+    .brands h1 {
+      padding-top : 2em;
+      font-size: 2.2em;
+    }
+    thead tr th {
+      font-size: 15px; 
+      padding-left: 0.2em;    
+      padding-bottom: 1em;
+    }
+    tbody tr td {
+      font-size: 12px;
+      padding: 0.3em;
+    }
+    tbody tr td img{
+      width: 5em;
+      height: 3em;    
+    }
+
+/*Brand page closed*/
+
+/*Product-List Page*/
+
+    .products-line1{
+        margin-top: 4em;
+        width: 87%;
+        height: 35em;
+        padding: 0 4em 0 4em;
+    }
+    .products-line1 img{
+        padding: 1em 2em 0 2em;
+        width: 22em;
+        height: 22em;
+    }
+    .products-line2{
+        margin-bottom: 2em;
+        width: 87%;
+        height: 35em;
+        padding: 0 4em 0 4em;
+    }
+    .products-line2 img{
+        padding: 1em 2em 0 2em;
+        width: 22em;
+        height: 22em;
+    }
+    h3{
+        font-size: 1.5em;
+        padding-left: 2.2em;
+    }
+    .products-line1 p{
+        padding-left: 2.2em;
+        font-size: 1.5em;
+    }
+    .products-line2 p{
+        padding-left: 2.2em;
+        font-size: 1.5em;
+    }
+/*Product-List Page closed*/
+
+/*Product-Details*/
+
+
+    .slides{
+        padding: 2em 3em 3em 12em;
+        width: 60%;
+    }
+    .slides img{
+        width: 40em;
+        max-height: 40em;
+    }
+    .desc{
+        width: 100%;
+        height: 20em;
+    }
+    .desc h1{
+        padding-left: 7em;
+        padding-bottom: 0.5em;
+        font-size: 2.8em;
+    }
+    .desc h2{
+        width: 70%;
+        padding: 1em 1em 2em 13em;
+        font-size: 1em;
+    }
+
+
+/*Product-Details closed*/
+
+/*Blog*/
+
+    .blog{
+        width: 100%;
+        height: 74em;
+    }
+    .blog img{
+        padding-left: 3em;
+        padding-top: 3em;
+        width: 40em;
+        height: 22em;
+    }
+
+    .blog h1{
+        padding-top: 1em;
+        padding-left: 3em;
+        padding-bottom: 1em;
+        font-size: 1.2em;
+    }
+    .blog p{
+        padding-left: 5em;
+        padding-bottom: 1.5em;
+        font-size: 1em;
+    }
+    .blog span{
+        padding-left: 5em;
+        font-size: 0.8em;
+    }
+/*Blog closed*/
+
+/*Contact us*/
+    
+    .contact{
+        height: 30em;
+    }
+    #map{
+        margin: 3em;
+        width: 54%;
+        height: 28em;
+    }
+    iframe{
+        width: 35em;
+        height: 25em;
+    }
+    .get{
+        padding: 2em;
+        width: 30%;
+    }
+
+    .field{
+        padding: 0.2em 0.8em;
+        font-size: 1em;
+    }
+    .btn{
+        padding: 0.2em 0.8em;
+        font-size: 1em;
+    }
+    .area{
+        margin-bottom: 1em;    
+        min-height: 7em;
+        font-size: 1em;
+    }
+
+
+/*Contact us closed*/
+
+/*Footer*/
+
+    footer span{
+        float: left;
+        padding-left: 4em;
+        color: #888888;
+        font-weight: 300;
+        font-size: 0.8em;
+        line-height: 2;
+    }
+    footer img{
+        float: right;
+        padding-right: 3em;
+    }
+
+/*Footer Closed*/
+    
+    
+}
+
+
+/*Tablet Mode (768px)*/
+
+@media (max-width: 768px) {
+
+/*    Header*/
+    
+    header{
+        display: block;
+        width: 93%;
+        padding: 1em;
+        height: 5em;
+    }
+    header img{
+        padding: 0.3em 0.5em 1em 20em;
+        float: left;
+    }
+    nav{
+        float: left;
+        padding-left: 2.5em;
+        padding-right: 0;
+    }
+    nav ul li a {
+        padding: 1em 1.5em 0.5em 1.5em;
+    }
+    
+/*    Header closed*/
+    
+/*Home Page*/
+
+    .banner{
+        height: 20em;
+    }
+    .banner img{
+        padding: 0 3em 0 5em;
+        height: 20em;
+    }
+    .banner-text{
+        padding: 5em 6em 6em 2em;
+    }
+    .banner-text span{
+        font-size: 1.6em;
+    }
+    .banner-text h1{
+        font-size: 2.8em;
+    }
+    .banner-text p{
+        font-size: 0.8em;
+    }
+    .banner2{
+        width: 100%;
+        height: 20em;
+    }
+    .banner2 h1{
+        padding-top : 2em;
+        font-size: 1.8em;
+    }
+    .banner-img{
+        padding-top: 0.8em;
+        padding-left: 0.8em;
+    }
+    .banner-img img{
+        padding: 1em;
+        width: 13em;
+        height: 8em;
+    }
+    .banner3{
+        height: 20em;
+        margin: 8em 2em 2em 2em;
+    }
+    .man img{
+        height: 28em;
+        padding-left: 7em;
+    }
+    .banner3-text{
+        padding: 6em 7em 6em 0; 
+    }
+    .banner3-text h1{
+        font-size: 1.8em;
+    }
+    .banner3-text p{
+        font-size: 0.8em;
+    }
+    .banner3-text span{
+        font-size: 1.4em;
+    }
+
+/*Home page closed*/
+
+/*Brand Page*/
+
+    .brand-title{
+        height: 20em;
+    }
+    .brand-text{
+        padding: 3em 0 2em 4em;
+    }
+    .brand-text span{
+        font-size: 1.1em;
+    }
+    .brand-text h1{
+        font-size: 2.4em;
+    }
+    .brand-text p{
+        font-size: 0.8em;
+    }
+    
+    table {
+        margin: 0.7em;
+        padding: 2em 1em 1em 1em;
+        width: 97%;
+        border: 4px solid #dce4e7;
+    }
+    table, thead, th, tbody, tr, td {
+    display: block;
+    }
+    thead { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    }
+    tr {
+    padding-bottom: 2em;
+    margin-top: 1em;
+    }
+
+    tbody tr td {  
+    padding: 0.3em 0.2em 0.3em 1em;
+    line-height: 2em;
+    }
+    
+    tbody tr td img{
+      width: 6.5em;
+      height: 4em;    
+    }
+    tbody tr td {
+      font-size: 15px;
+      padding: 0.3em 0 0.3em 2em;
+    }
+/*Brand page closed*/
+
+/*Product-List Page*/
+
+    .products-line1{
+        margin-top: 2em;
+        width: 87%;
+        height: 25em;
+        padding: 0 2em 0 2em;
+    }
+    .products-line1 img{
+        padding: 0.5em 1em 0 1em;
+        width: 17em;
+        height: 17em;
+    }
+    .products-line2{
+        margin-bottom: 2em;
+        width: 87%;
+        height: 25em;
+        padding: 0 2em 0 2em;
+    }
+    .products-line2 img{
+        padding: 0.5em 1em 0 1em;
+        width: 17em;
+        height: 17em;
+    }
+    h3{
+        font-size: 1.4em;
+        padding-left: 1.3em;
+    }
+    .products-line1 p{
+        padding-left: 1.3em;
+        font-size: 1.4em;
+    }
+    .products-line2 p{
+        padding-left: 1.3em;
+        font-size: 1.4em;
+    }
+/*Product-List Page closed*/
+
+/*Product-Details*/
+
+
+    .slides{
+        padding: 2em 3em 3em 6em;
+        width: 60%;
+    }
+    .slides img{
+        width: 35em;
+        max-height: 35em;
+    }
+    .desc{
+        width: 100%;
+        height: 22em;
+    }
+    .desc h1{
+        padding-left: 4em;
+        padding-bottom: 0.5em;
+        font-size: 2.4em;
+    }
+    .desc h2{
+        width: 70%;
+        padding: 1em 1em 2em 8em;
+        font-size: 1em;
+    }
+
+
+/*Product-Details closed*/
+
+/*Blog*/
+
+    .blog{
+        width: 100%;
+        height: 74em;
+    }
+    .blog img{
+        padding-left: 3em;
+        padding-top: 3em;
+        width: 40em;
+        height: 22em;
+    }
+
+    .blog h1{
+        padding-top: 1em;
+        padding-left: 3em;
+        padding-bottom: 1em;
+        font-size: 1.2em;
+    }
+    .blog p{
+        padding-left: 5em;
+        padding-bottom: 1.5em;
+        font-size: 1em;
+    }
+    .blog span{
+        padding-left: 5em;
+        font-size: 0.8em;
+    }
+/*Blog closed*/
+
+/*Contact us*/
+    
+    .contact{
+        height: 56em;
+        display: block;
+    }
+    #map{
+        margin: 3em 6em 6em 6em;
+        width: 54%;
+        height: 28em;
+    }
+    iframe{
+        width: 35em;
+        height: 25em;
+    }
+    .get{
+        padding: 2em 2em 1em 6em;
+        width: 70%;
+    }
+
+    .field{
+        padding: 0.2em 0.8em;
+        font-size: 1em;
+    }
+    .btn{
+        padding: 0.2em 0.8em;
+        font-size: 1em;
+    }
+    .area{
+        margin-bottom: 1em;    
+        min-height: 7em;
+        font-size: 1em;
+    }
+
+
+/*Contact us closed*/
+
+/*Footer*/
+
+    footer span{
+        float: left;
+        padding-left: 4em;
+        color: #888888;
+        font-weight: 300;
+        font-size: 0.8em;
+        line-height: 2;
+    }
+    footer img{
+        float: right;
+        padding-right: 3em;
+    }
+
+/*Footer Closed*/
+    
+    
+}
